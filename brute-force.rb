@@ -21,7 +21,6 @@ class SumOfFifthPowerDigits
 
   def answer
     iterate_through
-    binding.pry
     @solution_set.inject(:+)
   end
 end
